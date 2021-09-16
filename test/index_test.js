@@ -18,5 +18,8 @@ describe('Calculate', () => {
             result = Calculate.factorial(0)
             assert.equal(result, expectedResult)
         })
+        it('throws an error if passed a nonnumerical argument', () => {
+            assert.throws(Calculate.factorial, TypeError)
+        })
     });
 });
