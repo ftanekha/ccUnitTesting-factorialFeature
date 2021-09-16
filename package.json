@@ -1,0 +1,30 @@
+{
+  "name": "factorialfeature",
+  "version": "1.0.0",
+  "description": "codecademy TDD unit testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftanekha/ccUnitTesting-factorialFeature.git"
+  },
+  "keywords": [
+    "mocha",
+    "unit",
+    "testing",
+    "test",
+    "driven",
+    "codecademy"
+  ],
+  "author": "FT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftanekha/ccUnitTesting-factorialFeature/issues"
+  },
+  "homepage": "https://github.com/ftanekha/ccUnitTesting-factorialFeature#readme",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
