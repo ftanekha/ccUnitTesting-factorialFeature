@@ -1,5 +1,9 @@
 const Calculate = {
-    factorial(input){ return 120}
+    factorial(input){
+        let total = 1
+        for(let int = input; int >= 1; int--) total *= int
+        return total
+    }
 }
 
 module.exports = Calculate
