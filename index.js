@@ -1,8 +1,7 @@
 const Calculate = {
     factorial(input){
-        let total = 1
-        for(let int = input; int >= 1; int--) total *= int
-        return total
+        if(input == 0) return 1
+        return (input != 1) ? input * this.factorial(input - 1) : 1
     }
 }
 

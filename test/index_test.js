@@ -13,5 +13,10 @@ describe('Calculate', () => {
             result = Calculate.factorial(3)
             assert.equal(result, expectedResult)
         })
+        it('covers the 0! edge case', () => {
+            const expectedResult = 1,
+            result = Calculate.factorial(0)
+            assert.equal(result, expectedResult)
+        })
     });
 });
